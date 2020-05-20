@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <!-- Libs -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script> -->
+    <!-- <script src="https://code.highcharts.com/gantt/highcharts-gantt.js"></script> -->
+    <!-- End libs -->
+    
+    <link rel="stylesheet" href="assets/HY.css">
+    <title>[hold]</title>
+  </head>
+
+
+  <body>
+  <!-- Navigation Bar -->
+  <!-- need to update navbar and projects page -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <a class="navbar-brand" href="index.html">HY</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">about me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="personality.html">personality</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="resume.html">resume</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="projects.html"> see all projects </a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            featured projects
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="https://hanesy.github.io/plotly-challenge/" target="_blank">Biodiversity Dashboard</a>
+            <a class="dropdown-item" href="https://public.tableau.com/profile/heain#!/vizhome/Tableau-Challenge_15863863626670/StoryBoard" target="_blank"> CitiBike Ridership</a>
+            <a class="dropdown-item" href="https://icma.org/articles/doing-data-right" target="_blank"> Doing Data Right</a>
+            <a class="dropdown-item" href="https://hanesy.github.io/D3-challenge/" target="_blank">Health and Demography in United States</a>
+            <a class="dropdown-item" href="https://hanesy.github.io/leaflet-challenge/" target="_blank"> Mapping Earthquakes</a>
+            <a class="dropdown-item" href="https://olympics-dash.herokuapp.com/" target="_blank"> Olympics Dashboard</a>
+            <a class="dropdown-item" href="https://hanesy.github.io/NBA_Playoffs/" target="_blank"> Predicting NBA Playoffs</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class = "container-fluid">
+    <div class="row topBanner">
+      <div class="col-md-12 text-center" ><h1>HOLD</h1>
+        <article><i>(subtitle)</i></article>
+      </div>
+    </div>
+
+  <div class="row mainBar">
+      <div class="col-md-12">
+        <div id = "TESTCHARTS"></div>
+      </div>
+  </div>
+  
+  </div>
+
+  <!-- <footer id="footer">
+    <div style = "display: inline-block"><a href="https://github.com/hanesy" target="_blank" ><img src="/assets/images/gh.png" height = '40' alt=""><br>Github</a></div>
+    <div style = "display: inline-block"><a href="https://www.linkedin.com/in/heain-yee-82105818/" target="_blank"><img src="/assets/images/li.png" height = '40' alt=""><br>LinkedIn</a></div>
+    <div style = "display: inline-block"><a href="mailto: heainyee@gmail.com" target="_blank"><img src="/assets/images/email.png" height = '40' alt=""><br>Email</a></div>
+  </footer> -->
+
+
+  <script type="text/javascript" src="assets/chart.js"></script>
+
+  </body>
+</html>
